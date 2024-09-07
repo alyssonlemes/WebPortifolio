@@ -1,0 +1,31 @@
+<div class="flex">
+  <svg-icon
+    [svgStyle]="{
+      fill: isDarkMode ? 'white' : 'black'
+    }"
+    src="assets/img/light-mode.svg"
+    class="svg-mode mr-2"
+  ></svg-icon>
+  <div
+    class="relative inline-block w-10 align-middle select-none transition duration-200 ease-in"
+  >
+    <input
+      (click)="clickToggleSwicth($event)"
+      type="checkbox"
+      name="toggle"
+      id="toggle"
+      class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-mainPurple border-4 appearance-none cursor-pointer"
+    />
+    <label
+      for="toggle"
+      class="toggle-label block overflow-hidden h-6 rounded-full bg-mainPurple cursor-pointer"
+    ></label>
+  </div>
+  <svg-icon
+    [svgStyle]="{
+      fill: isDarkMode ? 'white' : 'black'
+    }"
+    src="assets/img/dark-mode.svg"
+    class="svg-mode ml-2"
+  ></svg-icon>
+</div>

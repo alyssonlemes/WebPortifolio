@@ -1,0 +1,31 @@
+<header>
+  <nav class="bg-white dark:bg-dark text-dark dark:text-white">
+    <div class="flex justify-between items-center">
+      <p class="menu-title phoneXS:text-base phone:text-h2 tablet:text-h1">
+        <a href="">Web Portfolio</a>
+      </p>
+      <div class="menu phone:hidden tablet:inline">
+        <ol>
+          <li class="hover:text-white select-none">
+            <a routerLink="/home" class="is-active">Home</a>
+          </li>
+          <li class="hover:text-white select-none">
+            <a routerLink="/about" class="is-active">About</a>
+          </li>
+          <li class="hover:text-white select-none">
+            <a routerLink="/work">Work</a>
+          </li>
+          <app-dark-mode-toggle-button></app-dark-mode-toggle-button>
+        </ol>
+      </div>
+      <button
+        (click)="clickHamburger()"
+        class="hamburger phone:inline tablet:hidden"
+      >
+        <span class="bg-dark dark:bg-white"></span>
+        <span class="bg-dark dark:bg-white"></span>
+        <span class="bg-dark dark:bg-white"></span>
+      </button>
+    </div>
+  </nav>
+</header>

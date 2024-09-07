@@ -1,0 +1,69 @@
+<h1 class="text-h1 font-extrabold mb-8">Experiences</h1>
+<div class="flex justify-center items-center flex-col">
+  <div
+    *ngFor="let experience of experiences"
+    class="flex flex-col tablet:flex-row work-card p-6 rounded-lg shadow-md items-start tablet:w-140 w-124 dark:bg-cards bg-light-cards text-black dark:text-white my-4 transition-transform transform-gpu hover:scale-110"
+  >
+    <div class="mb-4 w-36 font-bold text-xxxs">
+      <p>{{ experience.startDate }} — {{ experience.endDate }}</p>
+    </div>
+    <div class="w-80 tablet:w-96">
+      <div class="text-xl font-bold mb-2">{{ experience.company }}</div>
+      <div class="mb-4">
+        <div class="font-semibold text-secondaryPurple">
+          {{ experience.position }}
+        </div>
+      </div>
+      <p class="mb-4 text-gray-500 dark:text-gray-300 text-xxs">
+        {{ experience.description }}
+      </p>
+      <div class="flex flex-wrap mt-2 text-xxxxs">
+        <div
+          *ngFor="let language of experience.languages"
+          class="flex justify-center items-center"
+        >
+          <span
+            class="bg-mainPurple/30 p-2 m-1 select-none rounded-full px-3 py-1 text-xxxs font-medium leading-5"
+          >
+            {{ language }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-h1 font-extrabold mb-8">Education</h1>
+<div class="flex justify-center items-center flex-col">
+  <div
+    *ngFor="let education of educations"
+    class="work-card p-6 rounded-lg shadow-md flex flex-col tablet:flex-row items-start tablet:w-140 w-124 dark:bg-cards bg-light-cards text-black dark:text-white my-4 transition-transform transform-gpu hover:scale-110"
+  >
+    <div class="flex mb-4 w-36 font-bold text-xxxs">
+      <p>{{ education.startDate }} — {{ education.endDate }}</p>
+    </div>
+    <div class="w-80 tablet:w-96">
+      <div class="font-bold mb-2">{{ education.institution }}</div>
+      <div class="mb-4">
+        <div class="font-semibold text-secondaryPurple">
+          {{ education.studyType }}
+        </div>
+      </div>
+      <p class="mb-4 text-gray-500 dark:text-gray-300 text-xxs">
+        {{ education.description }}
+      </p>
+      <div *ngIf="education.languages" class="flex flex-wrap mt-2 text-xxxxs">
+        <div
+          *ngFor="let language of education.languages"
+          class="flex justify-center items-center"
+        >
+          <span
+            class="text-black bg-mainPurple/30 p-2 m-1 select-none rounded-full px-3 py-1 text-xxxs font-medium leading-5 dark:text-secondaryPurple"
+          >
+            {{ language }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,24 +3,19 @@
   <div class="mt-8 mb-8">
     <div class="flex justify-center items-center">
       <div class="max-w-6xl flex flex-wrap justify-center items-center">
-        <div
-          *ngFor="let project of projects"
-          class="h-52 w-80 dark:bg-cards bg-light-cards rounded-lg my-5 mx-5 transition-transform transform-gpu hover:scale-110"
-        >
+        <div *ngFor="let project of projects"
+          class="h-52 w-80 dark:bg-cards bg-light-cards rounded-lg my-5 mx-5 transition-transform transform-gpu hover:scale-110">
           <div class="mr-3 ml-3 mt-2">
             <div class="flex justify-between mt-4 h-10 rounded-full">
               <p class="mb-2 font-semibold">{{ project.title }}</p>
               <div class="flex justify-end">
                 <ng-container *ngIf="project.githubLink">
                   <a [href]="project.githubLink">
-                    <svg-icon
-                      src="assets/img/github.svg"
-                      [svgStyle]="{
+                    <svg-icon src="assets/img/github.svg" [svgStyle]="{
                         'width.rem': 1.5,
                         'height.rem': 1.5,
-                        fill: 'rgb(104, 43, 215)'
-                      }"
-                    ></svg-icon>
+                        fill: '#B22222'
+                      }"></svg-icon>
                   </a>
                 </ng-container>
               </div>
@@ -31,9 +26,8 @@
             <div class="flex flex-row mt-2 text-xxxxs">
               <div *ngFor="let language of project.languages">
                 <span
-                  class="bg-mainPurple/30 p-2 m-1 select-none rounded-full px-3 py-1 text-xxxs font-medium leading-5"
-                  >{{ language }}</span
-                >
+                  class="bg-mainPurple/30 p-2 m-1 select-none rounded-full px-3 py-1 text-xxxs font-medium leading-5">{{
+                  language }}</span>
               </div>
             </div>
           </div>
@@ -43,11 +37,14 @@
     <div class="flex justify-center items-center">
       <a href="https://github.com/alyssonlemes" target="_blank">
         <button
-          type="button"
-          class="rounded-lg border-2 border-mainPurple hover:bg-mainPurple w-28 h-14 mt-6 select-none"
-        >
-          Show more
-        </button>
+        type="button"
+        class="rounded-lg border-2 w-28 h-14 mt-6 select-none"
+        style="border-color: #B22222;"
+        onmouseover="this.style.backgroundColor = '#B22222';"
+        onmouseout="this.style.backgroundColor = '';"
+      >
+        Show more
+      </button>
       </a>
     </div>
   </div>
@@ -57,18 +54,13 @@
   <div class="mt-8 mb-8">
     <div class="flex justify-center items-center">
       <div class="max-w-6xl flex flex-wrap justify-center items-center">
-        <div
-          *ngFor="let language of languages"
-          class="h-40 w-72 dark:bg-cards bg-light-cards rounded-lg my-5 mx-5 transition-transform transform-gpu hover:scale-110"
-        >
+        <div *ngFor="let language of languages"
+          class="h-40 w-72 dark:bg-cards bg-light-cards rounded-lg my-5 mx-5 transition-transform transform-gpu hover:scale-110">
           <div class="mr-3 ml-3 mt-2">
             <table class="mt-3">
               <tr>
                 <td>
-                  <svg-icon
-                    [src]="language.icon"
-                    [svgStyle]="{ 'width.rem': 4, 'height.rem': 4 }"
-                  ></svg-icon>
+                  <svg-icon [src]="language.icon" [svgStyle]="{ 'width.rem': 4, 'height.rem': 4 }"></svg-icon>
                 </td>
                 <td class="pl-4">
                   <p class="mb-2 font-semibold">{{ language.name }}</p>
@@ -84,11 +76,14 @@
     <div class="flex justify-center items-center">
       <a href="https://github.com/alyssonlemes" target="_blank">
         <button
-          type="button"
-          class="rounded-lg border-2 border-mainPurple hover:bg-mainPurple w-28 h-14 mt-6 select-none"
-        >
-          Show more
-        </button>
+  type="button"
+  class="rounded-lg border-2 w-28 h-14 mt-6 select-none"
+  style="border-color: #B22222;"
+  onmouseover="this.style.backgroundColor = '#B22222';"
+  onmouseout="this.style.backgroundColor = '';"
+>
+  Show more
+</button>
       </a>
     </div>
   </div>

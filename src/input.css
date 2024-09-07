@@ -45,7 +45,7 @@ nav {
 }
 
 .hamburger.is-active:hover span {
-  background-color: var(--primary);
+  background-color: #4169E1;
 }
 
 .hamburger.is-active span:nth-child(1) {

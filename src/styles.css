@@ -441,7 +441,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: #B22222;
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -488,7 +488,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: #B22222;
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -885,7 +885,7 @@ video {
 
 .border-mainPurple {
   --tw-border-opacity: 1;
-  border-color: rgb(104 43 215 / var(--tw-border-opacity));
+  border-color: #B22222;
 }
 
 .bg-white {
@@ -899,12 +899,12 @@ video {
 }
 
 .bg-mainPurple\/30 {
-  background-color: rgb(104 43 215 / 0.3);
+  background-color: #B22222;
 }
 
 .bg-mainPurple {
   --tw-bg-opacity: 1;
-  background-color: rgb(104 43 215 / var(--tw-bg-opacity));
+  background-color: #B22222;
 }
 
 .bg-dark {
@@ -1008,12 +1008,12 @@ video {
 
 .text-secondaryPurple {
   --tw-text-opacity: 1;
-  color: rgb(141 84 247 / var(--tw-text-opacity));
+  color: rgb(65,105,225  / var(--tw-text-opacity));
 }
 
 .text-mainPurple {
   --tw-text-opacity: 1;
-  color: rgb(104 43 215 / var(--tw-text-opacity));
+  color: rgb(65,105,225  / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -1047,8 +1047,8 @@ video {
 /* -- theme --- */
 
 :root {
-  --primary: #682bd7;
-  --secondary: #a37cf0;
+  --primary: #B22222;
+  --secondary: #863535;
   --light: #eeeeee;
   --dark: #181a1b;
 }
@@ -1088,7 +1088,7 @@ nav {
 }
 
 .hamburger.is-active:hover span {
-  background-color: var(--primary);
+  background-color: #B22222
 }
 
 .hamburger.is-active span:nth-child(1) {
@@ -1131,7 +1131,7 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: var(--primary);
+  background-color: #B22222;
 }
 
 /* toggle swicth */
@@ -1200,7 +1200,7 @@ form {
   border: none;
   outline: none;
   font-size: 20px;
-  color: var(--light);
+  color: #B22222;
 }
 
 #message-div div {
@@ -1317,7 +1317,7 @@ h2 {
 }
 
 .card a {
-  color: #c363ff;
+  color: #B22222;
   text-decoration: none;
   font-size: 16px;
 }
@@ -1481,12 +1481,12 @@ span {
 
 .hover\:bg-mainPurple:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(104 43 215 / var(--tw-bg-opacity));
+  background-color: #B22222;
 }
 
 .hover\:text-mainPurple:hover {
   --tw-text-opacity: 1;
-  color: rgb(104 43 215 / var(--tw-text-opacity));
+  color: #B22222;
 }
 
 .hover\:text-white:hover {

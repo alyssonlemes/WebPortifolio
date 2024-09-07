@@ -6,7 +6,7 @@
     "start": "npm run serve & npm run tailwindcss",
     "serve": "ng serve",
     "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

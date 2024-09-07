@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mainPurple: "#682BD7",
+        mainPurple: "#4169E1",
         secondaryPurple: "#8d54f7",
         dark: "#181a1b",
         cards: "#2d3133",

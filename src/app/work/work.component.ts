@@ -78,7 +78,7 @@ export class WorkComponent implements OnInit {
       Languages.HTML,
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
       'I have used it since my technical education up to the present.',
-      LanguagesLevel.Advanced
+      LanguagesLevel.Intermediate
     );
     const css = new Language(
       7,
@@ -99,7 +99,7 @@ export class WorkComponent implements OnInit {
       Languages.Java,
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
       'I use it in university and work-study projects, especially with de Spring boot framework',
-      LanguagesLevel.Advanced
+      LanguagesLevel.Intermediate
     );
     const csharp = new Language(
       10,

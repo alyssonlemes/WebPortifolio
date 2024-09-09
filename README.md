@@ -1,9 +1,6 @@
 # PersonalWebsite
 
-[![wakatime](https://wakatime.com/badge/user/8ead7b74-441e-4a55-a485-743eaee10516/project/88556817-2959-4b34-b5a6-2346972fd8df.svg)](https://wakatime.com/badge/user/8ead7b74-441e-4a55-a485-743eaee10516/project/88556817-2959-4b34-b5a6-2346972fd8df)  
-[![Deploy to Firebase](https://github.com/ZIRTR0X/PersonalWebsite/actions/workflows/firebase-hosting-merge.yml/badge.svg?branch=master)](https://github.com/ZIRTR0X/PersonalWebsite/actions/workflows/firebase-hosting-merge.yml)
-
-My personal website
+My personal website using Angular JS, TailwindCSS, ThreeJs and Firebase to deploy. I would like to extend my sincere thanks to developer Julien Thême for his amazing project, which served as a great inspiration for my own work. All credit goes to him for the original concept and idea. You can check out his GitHub here: https://github.com/ZIRTR0X. Thank you, Julien!
 
 ## For build the CSS with TailwindCSS
 

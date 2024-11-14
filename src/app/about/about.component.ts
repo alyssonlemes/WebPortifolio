@@ -19,8 +19,22 @@ export class AboutComponent {
         Languages.Net,
         Languages.CSharp
       ],
-      'Jan 2024',
+      'Sep 2024',
       'Currently',
+      'SIL Sistemas',
+      'Junior Software Developer',
+      'Development of a web application with Genexus, C# and relational databases. I conducted code reviews and prototyping of screens'
+    ),
+    new Experience(
+      [
+        Languages.Genexus,
+        Languages.React,
+        Languages.PostgreSQL,
+        Languages.Net,
+        Languages.CSharp
+      ],
+      'Jan 2024',
+      'Sep 2024',
       'CHB Sistemas',
       'Software Developer',
       'Development of a web application with Genexus, C# and relational databases. '

@@ -21,18 +21,26 @@ export class WorkComponent implements OnInit {
     const cardapio = new Project(
       1,
       'Menu API',
-      'A small personal project, consisting of the creation of a REST API coded exclusively in Java with Spring Boot framework to manage the registration of supplies and food in a restaurant..',
+      'A small personal project, consisting of the creation of a REST API coded in Java with Spring Boot framework and Spring security to manage the registration of supplies and food in a restaurant..',
       [Languages.Java, Languages.SpringBoot, Languages.PostgreSQL],
       'https://github.com/alyssonlemes/Cardapio_API',
     );
     const crudreact = new Project(
-      3,
+      2,
       'Library CRUD',
       'This project is a CRUD with React, VITE and TypeScript. It is a university project responsible for creating a list based on registered books.',
       [Languages.React, Languages.Vite, Languages.TypeScript],
       'https://github.com/alyssonlemes/React-Vite-Crud'
     );
     const portfolio = new Project(
+      3,
+      'Portfolio',
+      'This is this website. It is a personal project based on the portifolio of the Julien Thême .',
+      [
+        Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
+      'https://github.com/ZIRTR0X/PersonalWebsite',
+    );
+    const IJB = new Project(
       4,
       'Portfolio',
       'This is this website. It is a personal project based on the portifolio of the Julien Thême .',
@@ -40,6 +48,15 @@ export class WorkComponent implements OnInit {
         Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
       'https://github.com/ZIRTR0X/PersonalWebsite',
     );
+    const culinaryPassport = new Project(
+      5,
+      'Portfolio',
+      'This is this website. It is a personal project based on the portifolio of the Julien Thême .',
+      [
+        Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
+      'https://github.com/ZIRTR0X/PersonalWebsite',
+    );
+    
     
 
     this.projects.push(

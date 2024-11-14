@@ -40,22 +40,7 @@ export class WorkComponent implements OnInit {
         Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
       'https://github.com/ZIRTR0X/PersonalWebsite',
     );
-    const IJB = new Project(
-      4,
-      'Portfolio',
-      'This is this website. It is a personal project based on the portifolio of the Julien Thême .',
-      [
-        Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
-      'https://github.com/ZIRTR0X/PersonalWebsite',
-    );
-    const culinaryPassport = new Project(
-      5,
-      'Portfolio',
-      'This is this website. It is a personal project based on the portifolio of the Julien Thême .',
-      [
-        Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
-      'https://github.com/ZIRTR0X/PersonalWebsite',
-    );
+    
     
     
 

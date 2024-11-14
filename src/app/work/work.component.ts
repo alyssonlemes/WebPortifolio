@@ -40,9 +40,6 @@ export class WorkComponent implements OnInit {
         Languages.Angular, Languages.TailwindCSS, Languages.TypeScript],
       'https://github.com/ZIRTR0X/PersonalWebsite',
     );
-    
-    
-    
 
     this.projects.push(
       cardapio,
